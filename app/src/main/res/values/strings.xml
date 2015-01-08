@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TimeTable</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="card_empty_cardwithlist_text">No Practicals..</string>
+    <string-array name="Year">
+
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+
+    </string-array>
+    <string-array name="Branch">
+        <item>Computer</item>
+        <item>Chemistry</item>
+        <item>Civil</item>
+        <item>Electronics</item>
+        <item>Mechanical</item>
+        <item>IT</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    style="@style/card"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        tools:text=""
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/card_header_inner_simple_title"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOLOLOL"
+        android:textSize="15sp"
+        android:textColor="#263238"
+        android:id="@+id/subtitle"/>
+
+</LinearLayout>

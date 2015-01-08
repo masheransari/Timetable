@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tuesday">
+    <ScrollView
+        android:id="@+id/Scrolls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/LectureCard3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card:card_layout_resourceID="@layout/native_cardwithlist_layout"
+                style="@style/card_external">
+            </it.gmariotti.cardslib.library.view.CardViewNative>
+            <it.gmariotti.cardslib.library.view.CardViewNative
+                android:id="@+id/pracs3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card:card_layout_resourceID="@layout/native_cardwithlist_layout"
+                style="@style/card_external">
+            </it.gmariotti.cardslib.library.view.CardViewNative>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

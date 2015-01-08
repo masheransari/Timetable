@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Developed by: Aditya K \nEmail:adikhandkar@gmail.com\nGet source code: \n\nMany thanks for code and support:\n\n1)DMCE College (Comps Department)\n\n2)Cardslib by gabrielemariotti\n\n3)PagerSliderStrip by astuetz\n"
+    android:textSize="15sp"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="License: \nCopyright (c) 2015 Aditya K \n'Timetable' application project is released under the terms of the MIT license.\nhttp://opensource.org/licenses/MIT"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+</LinearLayout>
